@@ -1,0 +1,70 @@
+/*Abstract
+AdobeHeiti
+alienmarks
+AlphaDishes
+AmericanTypewriter
+AmperSans
+AppleCasual
+AppleGothic
+ArialNarrow
+BellGothic
+BOOGNN__
+Corbel
+DancingDonuts
+dDAFTt
+Footlight
+FranklinGothic
+PACKCN__
+tallpaul
+*/
+
+@font-face {
+    font-family: 'Tall3Paul';
+    src: url('../__fonts/tallpaul.eot');  /* IE9 Compat Modes */
+    src: url('../__fonts/tallpaul.eot?#iefix') format('embedded-opentype'), 
+    url('../__fonts/tallpaul.woff') format('woff'),
+    url('../__fonts/tallpaul.ttf')  format('truetype'), 
+    url('../__fonts/tallpaul.svg#Tall3Paul') format('svg');
+    }
+
+@font-face {
+	font-family: 'AppleCasual';
+    src: url('../__fonts/AppleCasual.eot'); /* IE9 Compat Modes */
+    src: url('../__fonts/AppleCasual.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../__fonts/AppleCasual.woff') format('woff'), /* Modern Browsers */
+    url('../__fonts/AppleCasual.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../__fonts/AppleCasual.svg#AppleCasual') format('svg'); /* Legacy iOS */
+    }
+    
+@font-face {
+    font-family: 'pcn';
+    src: url('../__fonts/pcn.eot'); /* IE9 Compat Modes */
+    src: url('../__fonts/pcn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../__fonts/pcn.woff') format('woff'), /* Modern Browsers */
+    url('../__fonts/pcn.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../__fonts/pcn.svg#pcn') format('svg'); /* Legacy iOS */
+    }
+@font-face {
+	font-family: 'AbjectFailure';
+	src: url('../__fonts/AbjectFailure.eot');
+	src: url('../__fonts/AbjectFailure.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../__fonts/AbjectFailure.woff') format('woff'), 
+	url('../__fonts/AbjectFailure.ttf') format('truetype'), 
+	url('../__fonts/AbjectFailure.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Fingerpaint-Condensed';
+	src: url('fonts/Fingerpaint-CondensedRegular.eot');
+	src: local('☺'), url('fonts/Fingerpaint-CondensedRegular.woff') format('woff'), url('fonts/Fingerpaint-CondensedRegular.ttf') format('truetype'), url('fonts/Fingerpaint-CondensedRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Fingerpaint';
+	src: url('fonts/Fingerpaint.eot');
+	src: local('☺'), url('fonts/Fingerpaint.woff') format('woff'), url('fonts/Fingerpaint.ttf') format('truetype'), url('fonts/Fingerpaint.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}

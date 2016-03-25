@@ -1,0 +1,337 @@
+/**
+ *
+ *   Notes
+ *   
+ *   Enlaged the margins in the galleries and items grids - 10-8-2013
+ *   
+ *   
+ *   
+ */
+
+@import url("ss_fonts.css");
+
+/* Link Styles */
+
+
+/* a:link {
+  text-decoration:none;
+  color: #77f52e;
+  }
+  
+a:visited {
+  text-decoration:none;
+  color: #77f52e;
+  }
+  
+a:hover {
+  text-decoration:none;
+  color: #51932a;
+  }
+  
+a:active {
+  text-decoration:none;
+  color: #77f52e;
+  } */
+
+/* a:link {background-color:#B2FF99;}
+a:visited {background-color:#FFFF85;}
+*/
+
+/* a:hover {color:#916e8b;} */
+
+/*
+a:active {background-color:#FF704D;} */
+
+
+/* Sets styles for tpl_display_grid.php */
+
+body {
+	background: #fcefb9;
+}
+
+#container {
+	width: 1200px;
+	/* height:700px; */
+	padding-left: 50px;
+	color: white;
+}
+
+/* .portfolio {
+  width: 1200px;
+  color: #4114f4;
+  text-align: center;
+  font-family: AbjectFailure;
+  } 
+*/
+
+#page_head {
+  background-repeat: no-repeat;
+  background-image: URL(../__templates/headerpics/rotate.php);  /* url(headerpics/rotate.php) */
+  
+  
+  /* border: 2px solid black;
+    background:red; */
+  
+  /*text-shadow: 1px 1px 1px #aaa;*/
+}
+
+#onkart {
+	/* color:white; */
+	color: rgba(255,196,0,1);	
+	margin-top: -200px;
+	font-size: 625%;
+	width:1200px;
+	height:200px;
+	/* background:pink; */
+	font-weight: bold;
+	font-family: abjectfailure;
+	padding-left:20px;
+}
+
+#subhead {
+	font-size:160%;
+	font-style:italic;
+	margin-left: 10px;
+	margin-top: px;
+	font-family: abjectfailure;
+}
+
+/* ***** Color Coordination ***** */
+
+#subhead, #rightcolumn h3 {
+	color: rgba(46,105,147,0.77);
+}
+
+h2 {
+	font-size:130%;
+	color: black;
+	font-style:none;
+	font-family:sans-serif;
+	margin-left: -20px;
+}
+
+h3 .abjectfailure {  
+	font-family: abjectfailure;
+	color:rgba(46,105,147,0.77);
+	/*color: green;*/
+}
+
+.inline > h3 {
+	display: inline-block;
+	}
+
+	
+#sub_sub_head {
+	font-size:140%;
+	color: black;
+	font-style:none;
+	margin-left: 18px;
+	margin-top: 0px;
+	font-family:sans-serif;
+	font-size: 100%;
+}
+
+.abjectfailure {
+	font-family: abjectfailure;
+	color:black;
+}
+
+.local {
+	color:#67aad9; 
+}
+
+
+/* #leftcolumn a img { 
+   padding:1px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	} */
+
+/* #leftcolumn .plain a img { 
+	text-decoration: none;
+	border:none;
+	text-align: center; 
+	} */
+	
+#leftcolumn h3, #maincolumn h3 {
+	color: rgba(200,130,10,1);
+}
+
+#leftcolumn {  
+	margin-top: 10px;
+	width: 500px;
+	float: left;
+	color: black;
+	font-family:sans-serif;
+	}
+	
+#maincolumn {  
+	margin-top: -30px;
+	width: 1000px;
+	float: left;
+	color: black;
+	font-family:sans-serif;
+	}
+	
+.littleimage {
+	position:relative;
+	float:right;
+	left:0;
+	visibility:visible;
+	width:250px;
+	height:200px;
+	opacity:100;
+	border:0px solid #000000;
+	margin:0px 20px 5px 5px;
+	padding:0;
+}
+
+ul.nodecor {
+	list-style: none;
+}
+
+a:link {color:#368807;}      /* unvisited link */
+a:visited {color:#0667f7;}  /* visited link */
+a:hover {color:rgba(106,50,133,0.56);}  /* mouse over link */
+a:active {color:#0667f7;}  /* selected link */
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+	
+/* #leftcolumn h3 {
+	color:rgba(46,105,147,0.77);
+} */
+
+#rightcolumn { 
+	padding-top:0px;
+	margin-top: 30px;
+	margin-left:100px;
+	width: 600px;
+	font-size: medium;
+	text-align:left;
+	/*color: rgba(0,0,0,0.47);*/
+	color:black;
+	float: left;
+	/*font-family: AbjectFailure;*/
+	font-family:sans-serif;
+	}
+
+#rightcolumn h3 {
+	line-height: 1.4;
+	color: rgba(200,130,10,1);
+}
+	
+#rightcolumn li {
+	#rightcolumn li {
+	line-height: 1.4;
+}
+}
+
+/*
+#rightcolumn strong {
+	color:rgba(46,105,147,0.77);
+}
+*/
+
+/* End Column Styles */
+	
+.category {
+	color: #64ccee;
+}
+	
+.alignleft {
+	text-align: left;
+	}
+	
+.alignright {
+	text-align: right;
+	}
+	
+#footer {
+	clear:both;
+	color: khaki;
+	text-align: right;
+	width:1080px;
+	font-family: AbjectFailure;
+	}
+
+/* #sub_head {
+	font-size:160%;
+	color: rgba(37,191,247,1);
+	font-style:italic;
+	margin-left: 80px;
+	margin-top: 8px;
+	font-family:sans-serif;
+}
+
+ */
+
+ul#grid {
+  list-style: none;
+  }
+
+#grid li { /* Floats images and sets margins */
+  float: left;
+  margin: 0px 60px 30px 0px;  } 
+
+.fade {  /* Creates fade class */
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;   }
+
+.fade:hover {  /*  Applies class on hover */
+   opacity: 0.8;
+   }
+  
+#grid li a {  /* Pushes number to next line */
+  display: block;
+  }
+  
+  /** Sets styles for tpl_item.php **/
+  
+#itemwrap {
+	text-align: center;
+	}
+	
+#itemContainer {
+	width: 2000px;
+}
+
+.clear {
+	color: black:
+	position: relative;
+}
+
+/*  Sharon's Statement styles */
+
+#statement {
+	width:800px;
+	font-family:sans-serif;
+	font-size: 150%;
+	color:#ffffff;
+	margin-left:50px;
+	font-weight:300;
+}
+
+#statement a:link {
+  text-decoration:none;
+  color: #12fc05;
+  
+  }
+
+/*  ************ */
+
+/* Column Styles */
+form {
+	color: #c2c2c2;
+	}
+
+
+a:link.purchase {
+	color: #f5ffae;
+	text-decoration: none; 
+	}
