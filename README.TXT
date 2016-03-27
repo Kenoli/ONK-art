@@ -1,7 +1,3 @@
-This is a readme file.
+This is a readme file for this site.
 
-I removed a line and added this one.
-
-This is another change to development only.
-
-And yet another change.
+I've now added this line in the old file.
